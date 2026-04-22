@@ -8,7 +8,7 @@ app.use(express.json())
 
 app.use(cors({
   origin: ["http://localhost:3000",
-    "https://crudalgo.netlify.app/"
+    "https://crudalgo.netlify.app"
   ],
    
   credentials: true
